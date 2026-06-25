@@ -1,4 +1,4 @@
-# epub-vertical
+# epub-convert-to-vertical
 
 Turn a Chinese or Japanese EPUB that reads **left-to-right, horizontally** into one that reads **top-to-bottom, right-to-left** — the traditional way — with a single command.
 
