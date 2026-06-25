@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epub-vertical"
+version = "0.1.0"
+description = "Convert horizontal CJK EPUBs into vertical right-to-left layout."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["epub", "vertical", "cjk", "chinese", "japanese", "rtl", "ebook"]
+authors = [{ name = "epub-vertical contributors" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Text Processing :: Markup",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.scripts]
+epub-vertical = "epub_vertical.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/your-username/epub-vertical"
+Issues = "https://github.com/your-username/epub-vertical/issues"
+
+[tool.setuptools]
+packages = ["epub_vertical"]
